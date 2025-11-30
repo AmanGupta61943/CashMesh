@@ -30,6 +30,14 @@ function Hero() {
         <h1 className="hero-title">CashMesh</h1>
         <p className="hero-tagline">Earn rewards by completing simple tasks.</p>
         <div className="hero-buttons">
+          <a 
+            href="https://api.adgem.com/v1/wall?appid=31561&playerid=demo" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn btn-earn"
+          >
+            Start Earning Now
+          </a>
           <button className="btn btn-primary">Download App (Coming Soon)</button>
           <a href="#about" className="btn btn-secondary">Learn More</a>
         </div>

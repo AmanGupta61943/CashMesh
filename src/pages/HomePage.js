@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import Features from '../components/Features';
 import HowItWorks from '../components/HowItWorks';
+import StartEarning from '../components/StartEarning';
 import ComingSoon from '../components/ComingSoon';
 import Screenshots from '../components/Screenshots';
 import Contact from '../components/Contact';
@@ -16,6 +17,7 @@ function HomePage() {
       <About />
       <Features />
       <HowItWorks />
+      <StartEarning />
       <ComingSoon />
       <Screenshots />
       <Contact />

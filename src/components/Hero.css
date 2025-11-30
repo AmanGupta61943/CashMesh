@@ -122,6 +122,17 @@
   transform: translateY(-2px);
 }
 
+.btn-earn {
+  background: white;
+  color: #6366f1;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+
+.btn-earn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
