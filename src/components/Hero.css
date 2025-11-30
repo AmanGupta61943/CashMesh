@@ -8,6 +8,14 @@
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
+.hero-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+  animation: fadeInUp 0.8s ease-out;
+}
+
 .hero-background {
   position: absolute;
   top: 0;
@@ -43,6 +51,14 @@
   padding: 40px 20px;
   max-width: 800px;
   margin: 0 auto;
+}
+
+.app-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+  display: block;
 }
 
 .hero-title {
@@ -120,6 +136,16 @@
 @media (max-width: 768px) {
   .hero {
     min-height: 80vh;
+  }
+  
+  .hero-logo {
+    top: 15px;
+    left: 15px;
+  }
+  
+  .app-icon {
+    width: 60px;
+    height: 60px;
   }
   
   .hero-title {
